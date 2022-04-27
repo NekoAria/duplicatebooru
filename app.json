@@ -1,0 +1,22 @@
+{
+  "name": "duplicatebooru",
+  "description": "Detect pixel-identical images",
+  "repository": "https://github.com/NekoAria/duplicatebooru",
+  "env": {
+    "REDIS_URL": {
+      "description": "Redis URL",
+      "default": "",
+      "required": false
+    },
+    "DANBOORU_API_KEY": {
+      "description": "Danbooru API key",
+      "default": "",
+      "required": true
+    },
+    "DANBOORU_USERNAME": {
+      "description": "Danbooru username",
+      "default": "",
+      "required": true
+    }
+  }
+}
